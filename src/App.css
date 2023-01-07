@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{  
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: purple;
+    color:white;
+    
+}
+
+h2{
+    transition: 1.5s;
+    padding: 40px;
+}
+input{
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+}
+li button{
+        padding:10px;
+        border:  white;
+        font-size: 18px;
+        margin-right : 40px;
+        background-color: rgb(118, 243, 118);
+        color: white;
+}
+.Add_button{
+    height:43px;
+    width: 90px;
+    transition: 1s;
+}
+.Add_button:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+h2:hover{
+    color: black;
+}
+li{
+    list-style: none;
+    width: 75%;
+    margin: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        transition: 1.5s;
+        padding: 20px;
+    }
+    input{
+        width: 75%;
+        height: 18px;
+        padding: 5px;
+        font-size: 12.5px;
+    }
+    li button{
+        padding:10px;
+        border:  white;
+        font-size: 18px;
+        margin-right : 40px;
+        background-color: rgb(118, 243, 118);
+        color: white;
+
+    }
+    .Add_button{
+        height:30px;
+        width: 65px;
+        transition: 1s;
+    }
+    .Add_button:hover{
+        background-color: black;
+        color: white;
+        
+    }
+    
+    h2:hover{
+        color: black;
+    }
+    li{
+        list-style: none;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
